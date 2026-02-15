@@ -42,46 +42,87 @@
 // buttonElement[0].style.borderRadius = "10px";
 
 // !JavaScript Dom ID Selector is Starts Here!//
-const headingElement = document.getElementById("heading");
-headingElement.style.color = "tomato";
-headingElement.style.fontSize = "5rem";
+// const headingElement = document.getElementById("heading");
+// headingElement.style.color = "tomato";
+// headingElement.style.fontSize = "5rem";
 
-const button = document.getElementById("smallButton");
-button.style.padding = "10px 24px";
-button.style.fontSize = "1.25rem";
-button.style.borderRadius = "10px";
+// const button = document.getElementById("smallButton");
+// button.style.padding = "10px 24px";
+// button.style.fontSize = "1.25rem";
+// button.style.borderRadius = "10px";
 
-const ulElement = document.getElementById("unorderList");
-ulElement.style.backgroundColor = "aqua";
-ulElement.style.margin = "30px 170px";
-ulElement.style.padding = "50px 100px";
-ulElement.style.display = "flex";
-ulElement.style.gap = "30px";
-ulElement.style.justifyContent = "center";
-ulElement.style.alignItems = "center";
+// const ulElement = document.getElementById("unorderList");
+// ulElement.style.backgroundColor = "aqua";
+// ulElement.style.margin = "30px 170px";
+// ulElement.style.padding = "50px 100px";
+// ulElement.style.display = "flex";
+// ulElement.style.gap = "30px";
+// ulElement.style.justifyContent = "center";
+// ulElement.style.alignItems = "center";
 
 // !JavaScript Dom Class Selector is Starts Here!//
-const paragraph = document.getElementsByClassName("paragraph");
-paragraph[0].style.color = "red";
-paragraph[0].style.textAlign = "center";
-paragraph[0].style.fontSize = "1.25rem";
-paragraph[0].style.marginTop = "30px";
+// const paragraph = document.getElementsByClassName("paragraph");
+// paragraph[0].style.color = "red";
+// paragraph[0].style.textAlign = "center";
+// paragraph[0].style.fontSize = "1.25rem";
+// paragraph[0].style.marginTop = "30px";
 
-const listElement = document.getElementsByClassName("list");
-for (const list of listElement) {
-  list.style.listStyle = "none";
-  list.style.backgroundColor = "black";
-  list.style.padding = "10px 24px";
-  list.style.borderRadius = "10px";
-}
+// const listElement = document.getElementsByClassName("list");
+// for (const list of listElement) {
+//   list.style.listStyle = "none";
+//   list.style.backgroundColor = "black";
+//   list.style.padding = "10px 24px";
+//   list.style.borderRadius = "10px";
+// }
 
-const listItem = document.getElementsByClassName("list_item");
-for (const item of listItem) {
-  item.style.textDecoration = "none";
-  item.style.color = "tomato";
-  item.style.fontSize = "1.25rem";
-}
+// const listItem = document.getElementsByClassName("list_item");
+// for (const item of listItem) {
+//   item.style.textDecoration = "none";
+//   item.style.color = "tomato";
+//   item.style.fontSize = "1.25rem";
+// }
 
 // !JavaScript Dom Query Selector is Starts Here!//
+// const headingElement = document.querySelector("#heading");
+// headingElement.style.color = "blue";
+// headingElement.innerText = "Hello Document Object Model DOM";
+// headingElement.style.fontSize = "6rem";
+
+// const paragraphElement = document.querySelector(".paragraph");
+// paragraphElement.style.color = "white";
+// paragraphElement.style.fontSize = "1.27rem";
+// paragraphElement.style.textAlign = "center";
+
+// const ulElement = document.querySelector("#unorderList");
+// ulElement.style.backgroundColor = "tomato";
+// ulElement.style.margin = "30px 160px";
+// ulElement.style.padding = "50px 100px";
+// ulElement.style.display = "flex";
+// ulElement.style.justifyContent = "center";
+// ulElement.style.alignItems = "center";
+// ulElement.style.gap = "30px";
+
+// const buttonElement = document.querySelector("#smallButton");
+// buttonElement.style.padding = "10px 25px";
+// buttonElement.style.fontSize = "1.3rem";
+// buttonElement.style.color = "black";
+// buttonElement.style.fontWeight = "bolder";
+// buttonElement.style.borderRadius = "10px";
+// buttonElement.style.border = "2px solid tomato";
 
 // !JavaScript Dom Query Selector All is Starts Here!//
+// const listElement = document.querySelectorAll(".list");
+// for (const list of listElement) {
+//   list.style.listStyle = "none";
+//   list.style.backgroundColor = "aqua";
+//   list.style.padding = "10px 25px";
+//   list.style.borderRadius = "5px";
+// }
+
+// const listItem = document.querySelectorAll(".list_item");
+// for (const item of listItem) {
+//   item.style.textDecoration = "none";
+//   item.style.fontSize = "1.15rem";
+//   item.style.color = "black";
+//   item.style.fontWeight = "bold";
+// }
