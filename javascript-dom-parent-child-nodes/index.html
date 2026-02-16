@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-dom-practice-file</title>
+    <script src="script.js" defer></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        html , body{
+            width: 100%;
+            height: auto;
+            scroll-behavior: smooth;
+            background-color: black;
+            color: white;
+        }
+
+        .main_section {
+            background-color: aquamarine;
+            margin: 50px 200px;
+            padding: 100px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            border-radius: 10px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: tomato;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="main_section">
+            <ul id="unorderList">
+                <li><a href="#">Bangla Books</a></li>
+                <li><a href="#">English Books</a</li>
+                <li><a href="#">Maths Books</a></li>
+                <li><a href="#">Physics Books</a></li>
+                <li><a href="#">Economics Books</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
