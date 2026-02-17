@@ -68,6 +68,61 @@
         .button-mela button:nth-child(7) {
             background-color: red;
         }
+
+        #make_tomato {
+            background-color: tomato;
+        }
+
+        #make_aqua {
+            background-color: aqua;
+            color: black;
+        }
+
+        .text_section {
+            margin: 40px;
+            background-color: darkgoldenrod;
+            color: white;
+            padding: 20px 20px 30px;
+            border-radius: 10px;
+        }
+
+        .text_section p {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        #text_change_btn {
+            padding: 8px 20px;
+            background-color: tomato;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #name_add_btn {
+            padding: 8px 20px;
+            background-color: rgb(202, 0, 135);
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        #name_input {
+            width: 420px;
+            height: 40px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
     </style>
 </head>
 
@@ -80,6 +135,20 @@
         <button onclick="bg_yellow()">Make Yellow Color</button>
         <button id="make_orange">Make Orange Color</button>
         <button id="make_red">Make Red Color</button>
+    </div>
+    <div class="button-mela">
+        <button id="make_tomato">Make Tomato Color</button>
+        <button id="make_aqua">Make Aqua Color</button>
+    </div>
+
+    <div class="text_section">
+        <p id="paragraph_text">This is New Bangladesh 2.0</p>
+        <button id="text_change_btn">Click Here and Change The Text</button>
+
+        <p id="paragraph_text1"></p>
+        <input id="name_input" type="text" placeholder="Enter Your Name">
+        <br>
+        <button id="name_add_btn">Add Name</button>
     </div>
 </body>
 
