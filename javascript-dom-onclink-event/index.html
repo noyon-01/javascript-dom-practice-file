@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-dom-practice-file</title>
+    <script src="script.js" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: auto;
+            scroll-behavior: smooth;
+        }
+
+        .button-mela {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top: 40px;
+        }
+
+        .button-mela button {
+            padding: 10px 25px;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 1px solid brown;
+        }
+
+        .button-mela button:nth-child(1) {
+            background-color: purple;
+        }
+
+        .button-mela button:nth-child(2) {
+            background-color: blue;
+        }
+
+        .button-mela button:nth-child(3) {
+            background-color: skyblue;
+            color: black;
+        }
+
+        .button-mela button:nth-child(4) {
+            background-color: green;
+        }
+
+        .button-mela button:nth-child(5) {
+            background-color: yellow;
+            color: black;
+        }
+
+        .button-mela button:nth-child(6) {
+            background-color: orange;
+            color: black;
+        }
+
+        .button-mela button:nth-child(7) {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button-mela">
+        <button onclick="bg_purple()">Make Purple Color</button>
+        <button onclick="bg_blue()">Make Blue Color</button>
+        <button onclick="bg_skey()">Make SkyBlue Color</button>
+        <button onclick="bg_green()">Make Green Color</button>
+        <button onclick="bg_yellow()">Make Yellow Color</button>
+        <button id="make_orange">Make Orange Color</button>
+        <button id="make_red">Make Red Color</button>
+    </div>
+</body>
+
+</html>
