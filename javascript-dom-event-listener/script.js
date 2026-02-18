@@ -27,7 +27,7 @@ document
   });
 
 document.getElementById("mouse_event").addEventListener("mouseup", function () {
-    console.log("Mouse is Successfully Up")
+  console.log("Mouse is Successfully Up");
 });
 
 document
@@ -41,3 +41,16 @@ document
   .addEventListener("mouseleave", function () {
     console.log("Mouse is Successfully Leaved");
   });
+
+// !JavaScript Dom Adeventlistener Key Events Function Starts Here! //
+document.getElementById("key_event").addEventListener("keydown", function () {
+  console.log("Key is Successfully Downed");
+});
+
+document.getElementById("key_event").addEventListener("keypress", function () {
+  console.log("Key is Successfully Pressed");
+});
+
+document.getElementById("key_event").addEventListener("keyup", function () {
+  console.log("Key is Successfully Uped");
+});
