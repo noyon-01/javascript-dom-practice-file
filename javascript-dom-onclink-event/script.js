@@ -46,10 +46,7 @@ changeTextBtn.addEventListener("click", function () {
 });
 
 const paragraph_text1 = document.getElementById("paragraph_text1");
-
 const name_input = document.getElementById("name_input");
-console.log();
-
 const name_add_btn = document.getElementById("name_add_btn");
 
 name_add_btn.addEventListener("click", function () {
