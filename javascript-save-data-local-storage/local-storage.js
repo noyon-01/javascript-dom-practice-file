@@ -1,29 +1,17 @@
-const paragraph1 = document.createElement("p");
-paragraph1.innerText =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur rerum dicta quaerat itaque inventore velit ipsam et omnis ullam dolorum, a, excepturi placeat repellendus consequatur error amet modi earum minus? Perferendis in optio, sequi esse quae doloremque magni mollitia corporis aliquam eum consequatur qui architecto, unde ex eos nemo? Odit, explicabo repellendus. Dolorem at omnis nihil quia. Atque fugiat vitae itaque culpa amet quidem, eaque nesciunt illo quisquam facere tenetur id ratione harum voluptatem! Pariatur nesciunt, hic corporis laborum eum animi placeat nisi veritatis optio dignissimos quasi, minima labore repellendus delectus incidunt minus, a exercitationem fugiat officiis iste ut.";
+// !JavaScript Dom Text Changeing Starts Here! //
+// const heading_01 = document.getElementById("heading_01");
+// heading_01.innerText = "Hello JavaScript Document Object Model Dom How Are You!";
 
-const paragraph2 = document.createElement("p");
-paragraph2.innerText =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur rerum dicta quaerat itaque inventore velit ipsam et omnis ullam dolorum, a, excepturi placeat repellendus consequatur error amet modi earum minus? Perferendis in optio, sequi esse quae doloremque magni mollitia corporis aliquam eum consequatur qui architecto, unde ex eos nemo? Odit, explicabo repellendus. Dolorem at omnis nihil quia. Atque fugiat vitae itaque culpa amet quidem, eaque nesciunt illo quisquam facere tenetur id ratione harum voluptatem! Pariatur nesciunt, hic corporis laborum eum animi placeat nisi veritatis optio dignissimos quasi, minima labore repellendus delectus incidunt minus, a exercitationem fugiat officiis iste ut.";
+// const heading_02 = document.getElementsByClassName("heading_02");
+// heading_02[0].innerText = "My Hobby is Programming and Gardening!";
 
-const paragraph_section = document.querySelector(".paragraph_section");
-paragraph_section.appendChild(paragraph1);
-paragraph_section.appendChild(paragraph2);
+// const heading_03 = document.querySelector(".heading_03");
+// heading_03.innerText = "I Love to Coding!";
 
-const li1 = document.createElement("li");
-li1.innerText = "Node JS";
+// !JavaScript Dom Add and Remove Classlist Starts Here! //
+// const navber_box = document.querySelector("#navber");
+// navber_box.classList.add("navber_box");
 
-const li2 = document.createElement("li");
-li2.innerText = "Express JS";
-
-const li3 = document.createElement("li");
-li3.innerText = "Mongo DB";
-
-const li4 = document.createElement("li");
-li4.innerText = "Next JS";
-
-const list_section = document.querySelector(".list_section");
-list_section.appendChild(li1);
-list_section.appendChild(li2);
-list_section.appendChild(li3);
-list_section.appendChild(li4);
+// const navber_list = document.querySelector("#navber_list");
+// navber_list.classList.remove("navber-list");
+// navber_list.classList.add("navber-list");
